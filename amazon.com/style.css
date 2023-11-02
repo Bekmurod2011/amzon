@@ -1,0 +1,301 @@
+:root {
+    --font-size: 11px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+.container .content .home-page .navbar {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #00263c;
+    color: #fff;
+}
+.container .content .home-page .navbar .black .div {
+    padding: 10px;
+}
+.container .content .home-page .navbar .black .div:hover {
+    border: 1px solid #fff;
+}
+.container .content .home-page .navbar .img-div img {
+    margin-right: 50px;
+}
+.container .content .home-page .navbar .img-div img:hover {
+    border: 1px solid #fff;
+}
+.container .content .home-page .navbar .input-div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.container .content .home-page .navbar .input-div input {
+    width: 800px;
+    padding: 10px;
+    outline: none;
+}
+.container .content .home-page .navbar .input-div .div span:nth-child(1) {
+    background: #dadada;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    left: 12px;
+    border-radius: 5px 0 0 5px;
+    top: 1px;
+}
+.container .content .home-page .navbar .input-div .div span:nth-child(3) {
+    background: #FDA400;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    right: 12px;
+    border-radius: 0 5px 5px 0;
+    top: 1px;
+}
+.container .content .home-page .navbar .language {
+    margin-right: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.container .content .home-page .navbar .language:hover {
+    border: 1px solid #fff;
+}
+.container .content .home-page .navbar .hello {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: .8;
+    padding: 10px;
+}
+.container .content .home-page .navbar .hello:hover {
+    border: 1px solid #fff;
+}
+.container .content .home-page .navbar .return {
+    margin-right: 20px;
+    line-height: .8;
+    padding: 10px;
+}
+.container .content .home-page .navbar .return:hover {
+    border: 1px solid #fff;
+}
+.container .content .home-page .navbar .shop {
+    font-size: 20px;
+    padding: 10px;
+}
+.container .content .home-page .navbar .shop:hover {
+    border: 1px solid #fff;
+}
+.container .content .home-page .navbar .shop i {
+    font-size: 25px;
+}
+.container .content .home-page .navbar-2 {
+    display: flex;
+    padding: 5px;
+    background-color: #232f3e;
+}
+.container .content .home-page .navbar-2 span {
+    margin-left: 20px;
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container .content .home-page .navbar-2 span i {
+    padding: 5px;
+}
+.container .content .home-page .navbar-2 span:hover {
+    border: 1px solid #fff;
+}
+
+
+
+.big  {
+    padding: 0 120px;
+    background: #e7e7e7;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.big .big-card-1 {
+    background: url(https://m.media-amazon.com/images/I/717RUPA1bDL._SX3000_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+}
+.big .big-card-1 .card-2 {
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 160px 10px 0;
+    position: relative;
+    top: 40px;
+}
+.big .big-card-1 .card-2 a {
+    text-decoration: none;
+    color: #007185;
+    margin-top:30px;
+    font-size: 15px;
+}
+.big .big-card-1 .card-2 a:hover {
+    color: #FDA400;
+}
+.big .big-card-1 .card-2 p {
+    font-size: 15px;
+}
+.big .big-card-1 .card-2 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.big .big-card-1 .card-2 .divv .two-img {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.big .big-card-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+}
+.big .big-card-2 .card-2 {
+    width: 340px;
+    height: 400px;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    margin:  10px;
+}
+.big .big-card-2 .card-2 a {
+    text-decoration: none;
+    color: #007185;
+    margin-top:30px; 
+    font-size: 15px;
+}
+.big .big-card-2 .card-2 a:hover {
+    color: #FDA400;
+}
+.big .big-card-2 .card-2 p {
+    font-size: 15px;
+}
+.big .big-card-2 .card-2 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.big .big-card-2 .card-2 .divv .two-img {
+    display: flex;
+}
+
+
+
+
+.one-big-card .card-2 {
+    width: 1415px;
+    background: #fff;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.one-big-card .card-3 {
+    width: 1415px;
+    background: #fff;
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.one-big-card .card-3 .divv img {
+    margin: 25px;
+    height: 200px !important;
+}
+
+
+
+
+.one-big-card .card-2 {
+    width: 1415px;
+    background: #fff;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.one-big-card .card-4 {
+    width: 1415px;
+    background: #fff;
+    margin-left: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.one-big-card .card-4 .divv img {
+    height: 200px !important;
+}
+
+
+
+
+.small-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.small-div span:nth-child(1) {
+    font-size: 15px;
+    font-weight: 500;
+}
+.small-div button {
+    padding: 8px 100px;
+    font-weight: 700;
+    background: #FFC73A;
+    border: none;
+    border-radius: 5px;
+}
+.small-div span {
+    font-size: var(--font-size);
+}
+.small-div span span {
+    color: #007185;
+    font-size: 11px !important;
+}
+
+
+
+
+.back .text {
+    text-align: center;
+    background: #37475A;
+    color: #fff;
+    font-size: 15px;
+    padding: 18px;
+    transition: .1s;
+}
+.back .text:hover {
+    background: #41546a;
+}
